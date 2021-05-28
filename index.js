@@ -26,3 +26,17 @@ let quotation = 'john said "this is my car"';
 console.log(typeof names);
 console.log(typeof paragraph);
 console.log(typeof quotation);
+
+//
+
+let selectedcolors = ["blue", ["red"]];
+
+//
+
+function greet(named, lastName) {
+  //   alert("Hello " + named + " " + lastName + "!");
+  alert(`Hello ${named} ${lastName}`);
+}
+greet("Abdul-Malik", "Mohamed");
+
+//
